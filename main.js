@@ -77,3 +77,53 @@ var valid_logins_jth_index = valid_logins[j];
 //during traversing we need go ahead
 //if we are at 1th index,then next index will be 2
 //thererfore we need to increment the index
+
+console.log('Welcome to JavaScript Revision 04');
+
+//for in loop
+//it will print the value in this case
+console.log("for in loop");
+
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (var x in array) {
+  console.log(array[x]);
+}
+
+console.log("it will print index");
+//it will print the index in this case
+const array_index = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+for (var x in array_index) {
+  console.log(x);
+}
+
+//for of loop
+
+console.log("for of loop")
+for (var x of array) {
+  console.log(x);
+}
+
+//while loop
+//use case: print 100 to 200 
+
+console.log("while loop");
+
+var num = 100;
+
+while (num <= 200) {
+  console.log(num);
+  num++;
+}
+
+//do while loop
+
+console.log("do while loop");
+
+var num2 = 99
+do {
+  console.log(num2);
+  num++;
+} while (num2 <= 200);
